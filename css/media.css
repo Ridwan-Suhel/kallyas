@@ -1,0 +1,162 @@
+/*max width 992px*/
+@media (max-width: 991.98px) {
+	.navbar-toggler {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.navbar-nav .nav-link{
+	display: inline-block;
+}
+	header .collapse .nav-ul li {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+	header .collapse .nav-ul li.active a.nav-link {
+    padding-bottom: 5px;
+}
+	header .collapse .nav-ul li a:before {
+     margin: 0px; 
+     height: 1px;
+}
+	header .collapse .nav-ul li.active a.nav-link{
+	border-bottom: 1px solid #fb414e;
+}
+	.top-title p{
+		margin-top: 10px;
+}
+	.top-wrapper .cta-row{
+		margin-top: 30px;
+}
+	.service-section .single-service h3 {
+    font-size: 21px;
+}
+	.service-section .single-service p {
+    padding: 0px 0px;
+}
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.top-title h1 {
+    font-size: 25px !important;
+}
+	.hero .top-wrapper {
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+.serv-short-box .card{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.service-section .single-service h3 {
+	font-size: 20px;
+    font-weight: 600;
+}
+.b-plan-img{
+	margin-top: 50px;
+}
+ .b-plan-content .top-title h1 {
+    line-height: 25px !important;
+}
+.client-content{
+	margin-top: 40px;
+}
+.client-content h1{
+	text-align: center !important;
+}
+.client-content p{
+	text-align: center !important;
+}
+.southrn{
+	margin-top: 35px;
+}
+.form-area .form-t-content h1 {
+    text-align: center;
+}
+.form-area .form-t-content p {
+    text-align: center !important;
+}
+.panel{
+	margin-top: 40px;
+}
+}
+
+/*max width 450*/
+@media (max-width: 450px) {
+	.cta-row .btn{
+	width: 100%;
+	margin-left: 0;
+	}
+	.cta-row .common-btn-outline{
+	margin-top: 18px;
+	}
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.serv-short-box .card-columns {
+    column-count: 1;
+}
+	.top-title h1 {
+    font-size: 30px !important;
+}
+.hero .top-wrapper {
+    padding: 140px 0px 105px;
+}
+.b-plan-img{
+	margin-top: 50px;
+}
+.client-content{
+	margin-top: 40px;
+}
+.client-content h1{
+	text-align: center ;
+}
+.client-content p{
+	text-align: center ;
+}
+.form-area .form-t-content h1 {
+    text-align: center;
+}
+.form-area .form-t-content p {
+    text-align: center !important;
+}
+.panel{
+	margin-top: 40px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.top-title h1 {
+    font-size: 35px;
+}
+.hero .top-wrapper {
+    padding: 115px 0px 100px;
+}
+	.serv-short-box .strategy-card{
+	padding-bottom: 6px;
+}
+	.serv-short-box .card{
+		width: 100%;
+	}
+	.serv-short-box .card-columns {
+	    column-count: 2;
+}
+.form-area .form-t-content h1 {
+    font-size: 36px;
+}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	
+}
